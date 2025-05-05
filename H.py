@@ -450,3 +450,6 @@ def show_disease_info(name):
         st.subheader("Medical Tip (نصيحة طبية):")
         st.info("Supportive care and therapy can improve quality of life.")
         st.success("الرعاية المساندة والعلاج تحسن جودة الحياة.")
+
+# عرض المعلومات حسب المرض المختار
+show_disease_info(selected_disease)
