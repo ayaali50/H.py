@@ -128,13 +128,8 @@ def show_disease_info(name):
         st.subheader("Medical Tip (نصيحة طبية):")
         st.info("Early diagnosis and lung function monitoring are crucial for better management.")
         st.success("التشخيص المبكر ومراقبة وظائف الرئة أمران حاسمان لإدارة أفضل.")
-
-    # (تكملة الأمراض الأخرى بنفس الطريقة)
-    # نكمل باقي الأمراض بالطريقة نفسها
-
-# عرض معلومات المرض
-show_disease_info(selected_disease)
-elif name == "Sickle Cell Anemia":
+        
+    elif name == "Sickle Cell Anemia":
         st.header("Sickle Cell Anemia (الأنيميا المنجلية)")
         st.subheader("Definition (تعريف):")
         st.write("A genetic disorder affecting hemoglobin, causing red blood cells to become sickle-shaped and block blood flow.")
