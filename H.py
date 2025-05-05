@@ -134,7 +134,7 @@ def show_disease_info(name):
 
 # عرض معلومات المرض
 show_disease_info(selected_disease)
-    elif name == "Sickle Cell Anemia":
+elif name == "Sickle Cell Anemia":
         st.header("Sickle Cell Anemia (الأنيميا المنجلية)")
         st.subheader("Definition (تعريف):")
         st.write("A genetic disorder affecting hemoglobin, causing red blood cells to become sickle-shaped and block blood flow.")
